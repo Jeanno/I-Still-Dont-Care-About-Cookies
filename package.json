@@ -7,7 +7,9 @@
   "scripts": {
     "lint": "eslint src .",
     "lintfix": "eslint src --fix",
-    "prettier": "prettier --write ."
+    "prettier": "prettier --write .",
+    "build:chrome": "node build-chrome.js",
+    "build:chrome:dev": "node build-chrome.js --dev"
   },
   "repository": {
     "type": "git",
